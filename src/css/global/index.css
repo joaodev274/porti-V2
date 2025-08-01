@@ -21,3 +21,9 @@ body {
     opacity: 0.9;
     transform: rotate(360deg);
 }
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
