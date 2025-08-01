@@ -1,0 +1,45 @@
+.main-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.main-content h1 {
+    font-size: 2.5rem;
+    color: #fff;
+    margin-bottom: 2px;
+    text-align: center; 
+}
+
+.main-content p {
+    font-size: 1.2rem;
+    color: #ccc;
+    text-align: center;
+}
+
+.display-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.display-button button {
+    background-color: #111;
+    color: white;
+    border: 1px solid #054523;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.display-button button a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.display-button button a:hover {
+    color: #808080;
+}
